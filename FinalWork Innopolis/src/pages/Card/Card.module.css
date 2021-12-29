@@ -1,0 +1,49 @@
+.card {
+    display:grid;
+    grid-template-rows: 4fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr;
+    background-color: #ffffff;
+    width: 25vw;
+    height: 35vw;
+    text-align: center;
+    box-shadow: 1vw 1vw 2vw 0px darkmagenta;
+    border: solid 1px grey;
+    border-radius: 7px;
+    background-color: black;
+    color: grey;
+}
+.card__img {
+    padding: 2vw 10px 0;
+    width: 85%;
+    height: 85%;
+}
+.card__cart {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+h2 {
+    color: forestgreen;
+    margin: 1vw 0 0;
+    font-size: 2vw;
+}
+h3 {
+    font-size: 1.5vw;
+}
+p {
+    margin: 0;
+    font-size: 1vw;
+    padding: 0 1vw 0 1vw;
+}
+.card__cart-button {
+    border: solid .6vw grey;
+    border-radius: 50px 0 0;
+    border-bottom-right-radius: 7px;
+    border-bottom: darkred;
+    border-right: darkred;
+    font-size: 3vw;
+    background-color: darkred;
+    box-shadow: 1vw 1vw 2vw 0px cyan;
+}
+.card a {
+    color: forestgreen;
+}

@@ -1,0 +1,36 @@
+.sign-in__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border: solid .1vw grey;
+    border-radius: 20px;
+    margin-top: 10vh;
+    background-color: gray;
+
+
+}
+.sign-in__input {
+    margin: 1.5vw;
+    width: 30vw;
+    padding: 2vw;
+    border: solid .2vw darkmagenta;
+    border-radius: 20px;
+    font-size: 2vw;
+}
+.sign-in__button {
+    margin: 1.5vw;
+    width: 10vw;
+    padding: 1vw;
+    border: solid .1vw black;
+    border-radius: 20px;
+    font-size: 2vw;
+    color:white;
+    background-color: darkmagenta;
+}

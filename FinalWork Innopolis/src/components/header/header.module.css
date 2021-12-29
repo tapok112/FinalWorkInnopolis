@@ -1,0 +1,35 @@
+header {
+    background-color: dimgrey;
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 7vw;
+    align-items: center;
+}
+.header__a {
+    color: grey;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.header__li {
+    border: solid .4vw darkmagenta;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.7vw;
+}
+img {
+    width: 6vw;
+    height: 6vw;
+    margin-top: 0.7vw;
+}
+.header__button {
+    border: solid .4vw darkmagenta;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.7vw;
+    color: grey;
+    font-size: 2vw;
+}
